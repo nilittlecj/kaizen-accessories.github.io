@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    overflow: auto;
+    background: rgba(62, 76, 80, 0.8);
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.logo{
+    position: absolute;
+    top: 3px;
+    left: 10px;
+}
+.logo img{
+    
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.userLog{
+    color: black;
+}
+h1{
+    width: 500px;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 5%;
+    color: rgb(10, 224, 85);
+    border-radius: 10px;
+    border-bottom: solid 2px rgb(120, 112, 112);
+    margin-bottom: 50px;
+}
+.form{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 0;
+}
+.form form{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20%;
+    transform: translate(-50%, -20%);
+    margin-left: 50%;
+    height: auto;
+    background: rgb(8, 83, 52);
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+form input{
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+form input:focus{
+    border: none;
+    color: red;
+}
+form input:active{
+    border: none;
+}
+form button{
+    padding: 10px;
+    margin-top: 10px;
+}
+form button:hover{
+    cursor: pointer;
+    
+}
+form button:active{
+    border-radius: 20px;
+    letter-spacing: 0.03em;
+}
+.top{
+    margin-top: -30px;
+    color: aqua;
+    margin-bottom: 20px;
+}    
+marquee{
+    background: none;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+
+}
+.intro{
+    margin:1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    text-align: left;
+    border-radius: 20px;
+    background: #babaf4;
+    max-width: 100vw;
+    min-width: 350px;
+    padding: 20px;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+}
+.intro::first-line{
+    background: rgb(119, 61, 74);
+    color: rgb(255, 255, 255);
+    margin: 15px;
+}
+.intro ul li{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+li{
+    margin-left: 0;
+}
+.intro ol li{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.intro:hover{
+   opacity: 110%;
+   color: #042634;
+    font-weight: 500;
+    transition: all ease-in 0.8s;
+
+}
+.challenges{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.userLog{
+    position: absolute; 
+    top: 10px;
+    right: 10px;
+}
+.userLog button{
+    border: none;
+    background: none;
+}
+.userLog button a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+#signBtn{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    background-color: rgb(47, 103, 25);
+}
+
+#signBtn a{
+    color: #fff;
+}
+#signBtn a:hover{
+   letter-spacing: 0.0 5em;
+   font-weight: 700;
+}
+
+.farmersLog{
+    width: 90%;
+    border-radius: 10px;
+    border-left: 4px solid green;
+    border-top: 4px solid green;
+    margin-left: 5%;
+    background: #338fb6;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    
+}
+.farmersLog h2{
+    display: block;
+    
+    position: relative;
+}
+.farmersLog img{
+    width: 370px;
+    margin-left: 3%;
+    margin: 10px;
+    
+    height: 300px;
+    position: relative;
+}
+.footer{
+    margin: 0;
+    width: 100vw;
+    position: absolute;
+    border-radius: 10px 10px 0px 0px;
+    background: silver;
+    padding: 3%;
+    margin-right: 0;
+    font-size: 18px;
+}
+.links{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.links a{
+    margin: 5px;
+}
+#whatsapp{
+    color: green;
+    font-size: 28px;
+    font-weight: 500;
+}
+#instagram{
+    color: rgb(178, 43, 95);
+    font-size: 28px;
+    font-weight: 500;
+}
+#gmail{
+    color: red;
+    font-size: 28px;
+    font-weight: 500;
+}
+#logInBtn{
+    background: none;
+    margin: 5px;
+    font-size: 15px;
+    color: blueviolet;
+    border: none;
+}
+#logInBtn a{
+    border-bottom: solid 2px blue;
+    text-decoration: none;
+    color: #15052d;
+    font-weight: 700;
+}
+#logIn a{
+    color: blue;
+}
+.copyright{
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+}
